@@ -28,7 +28,7 @@ markdown: kramdown
 # Jekyll get
 jekyll_get:
   data: articles
-  json: 'http://content.guardianapis.com/search?show-fields=body&pageSize=20&type=article&api-key=gwrrwxhh797jwfnbfsw7wkf5'
+  json: 'http://content.guardianapis.com/search?show-fields=body,byline&pageSize=20&type=article&api-key=gwrrwxhh797jwfnbfsw7wkf5'
 
 # Data page generator
 page_gen:
