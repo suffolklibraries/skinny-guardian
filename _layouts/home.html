@@ -1,0 +1,27 @@
+{% include header.html %}
+
+    <article class="pv3 pv5-ns ph2 ph5-ns">
+
+        <header>
+
+            <p class="ma0 mb1 f6 gray">Last updated {{ "now" | date: "%-d %B %Y, %H:%M" }}</p>
+
+            <h1 class="ma0 f3 mb4 lh-title">Latest Guardian headlines</h1>
+
+        </header>
+
+        <ul class="list ma0 pa0 bb b--moon-gray">
+
+        {% for article in site.data.articles.response.results %}
+
+          <li class="bt b--moon-gray"><a class="db pv2 dark-blue no-underline hover-dark-pink" href="/articles/{{ article.id | downcase | replace: '/', '' }}.html">{{ article.webTitle}}</a></li>
+
+        {% endfor %}
+
+        </ul>
+
+        {{ content }}
+
+    </article>
+
+{% include footer.html %}

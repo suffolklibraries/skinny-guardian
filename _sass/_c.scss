@@ -1,0 +1,85 @@
+@media screen, projection {
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-size: 0.875em;
+    line-height: 1.2;
+}
+
+blockquote {
+    font-size: 0.875em;
+    padding-left: 1rem;
+    border-left: 0.5rem solid #AAA;
+}
+
+th {
+    text-align: left;
+}
+
+td, th {
+    padding: 0.25rem 0.5rem;
+}
+
+.c-sans-serif {
+    font-family: -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+}
+
+.c-links a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.c-links a:link {
+    color: #00449E;
+}
+
+.c-links a:visited {
+    color: #357EDD;
+}
+
+.c-links a:hover,
+.c-links a:active,
+.c-links a:focus {
+    color: #D5008F;
+}
+
+.c-old-guardian-serif {
+    font-family: garamond, baskerville, 'liberation serif', serif;
+}
+
+.c-headers h2 {
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+    font-size: 1.25rem;
+}
+
+.gu-image {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.element-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.element-video iframe,
+.element-video object,
+.element-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+}

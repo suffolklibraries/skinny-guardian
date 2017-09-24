@@ -1,0 +1,27 @@
+{% include header.html %}
+
+    <article class="pv3 pv5-ns ph2 ph5-ns">
+
+        <div class="measure-wide">
+
+            <header>
+
+                <h1 class="ma0 f3 lh-title">{{ page.webTitle }}</h1>
+
+                <p class="gray">{{ page.webPublicationDate  | date: "%-d %B %Y, %R" }}</p>
+
+            </header>
+
+            <div class="c-headers c-links">
+
+                {{ page.fields.body }}
+
+                <p class="pt2 bt b--moon-gray"><span class="b">Permalink:</span> <a href="{{ page.webUrl }}">{{ page.webUrl }}</a></p>
+
+            </div>
+
+        </div>
+
+    </article>
+
+{% include footer.html %}
