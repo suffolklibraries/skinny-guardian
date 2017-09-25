@@ -1,7 +1,7 @@
 @media screen, projection {
 
 html {
-    font-size: 112.5%;
+    font-size: 106.75%;
 }
 
 @media (min-width: 40em) {
@@ -12,7 +12,7 @@ html {
 
 @media (min-width: 60em) {
   html {
-    font-size: 150%;
+    font-size: 143.75%;
   }
 }
 
@@ -41,12 +41,16 @@ td, th {
     padding: 0.25rem 0.5rem;
 }
 
-.c-sans-serif {
-    font-family: avenir, -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+.c-lh-copy {
+    line-height: 1.6;
 }
 
-.c-serif {
-    font-family: athelas, cambria, georgia, serif;
+.c-lh-title {
+    line-height: 1.3;
+}
+
+.c-sans-serif {
+    font-family: 'lucida grande', -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
 }
 
 .c-links a {
