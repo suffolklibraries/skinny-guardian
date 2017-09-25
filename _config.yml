@@ -28,7 +28,7 @@ markdown: kramdown
 # Jekyll get
 jekyll_get:
   data: articles
-  json: 'http://content.guardianapis.com/search?show-fields=body,byline&pageSize=20&production-office=UK&type=article&api-key=gwrrwxhh797jwfnbfsw7wkf5'
+  json: 'http://content.guardianapis.com/search?show-fields=body,byline,shortUrl&pageSize=20&production-office=UK&type=article&api-key=gwrrwxhh797jwfnbfsw7wkf5'
 
 # Data page generator
 page_gen:
@@ -51,15 +51,13 @@ sass:
 defaults:
 -
     scope:
-        path: ""      # empty string for all files
-        type: home   # limit to home layout
+        path: "/"      # empty string for all files
     values:
         is_home: true
 
 -
     scope:
-        path: ""
-        type: article
+        path: "articles"
     values:
         is_article: true
         layout: article
