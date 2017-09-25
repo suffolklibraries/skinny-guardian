@@ -45,6 +45,10 @@ td, th {
     font-family: avenir, -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
 }
 
+.c-serif {
+    font-family: athelas, cambria, georgia, serif;
+}
+
 .c-links a {
     text-decoration: none;
     border-bottom: 1px solid;
@@ -72,11 +76,14 @@ td, th {
     font-family: 'helvetica neue', helvetica, arial;
 }
 
-.c-headers h2 {
+.c-headers h2,
+.c-headers h1,
+.c-headers h3 {
     margin: 0;
     padding: 0.5rem 0 0.25rem 0;
     font-size: 1.25rem;
     line-height: 1.2;
+    font-family: avenir, -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
 }
 
 .c-headers h2 + p {
