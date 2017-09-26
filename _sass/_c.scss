@@ -37,7 +37,7 @@ td, th {
 }
 
 .c-sans-serif {
-    font-family: 'lucida grande', -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+    font-family: $sans-serif;
 }
 
 .c-links a {
@@ -74,7 +74,7 @@ td, th {
     padding: 0.5rem 0 0.25rem 0;
     font-size: 1.25rem;
     line-height: 1.25;
-    font-family: 'lucida grande', -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+    font-family: $sans-serif;
 }
 
 .c-headers h2 + p {
@@ -114,7 +114,7 @@ td, th {
 
 @media (min-width: 40em) {
   html {
-    font-size: 125%;
+    font-size: 112.5%;
   }
   .c-lh-copy {
       line-height: 1.6;
@@ -126,7 +126,7 @@ td, th {
 
 @media (min-width: 60em) {
   html {
-    font-size: 143.75%;
+    font-size: 125%;
   }
 }
 
