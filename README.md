@@ -1,10 +1,10 @@
 # Skinny Guardian
 
-A website that displays the 30 most recently published Guardian articles in a simple list. Article layout is minimally styled for easy reading across screen widths. No javascript, static HTML and minimal CSS = ⚡️ fast.
+[Skinny Guardian](https://www.skinnyguardian.xyz) displays a simple list of the 30 most recently published Guardian articles. Article layout is minimally styled for easy reading across screen widths. No javascript, static HTML and minimal CSS = ⚡️ fast.
 
 ## Why?
 
-A simple list of links is easy to scan quickly. The Guardian has a great website, but this makes for even faster reading, especially when you're serving nearly neat, static HTML. Perhaps good if you're using a phone on a commute. Or if you just want to scan a range of articles for something to read.
+A simple list of links is easy to scan. The Guardian has a great website, but this makes for even faster reading, especially when you're serving nearly neat, static HTML. Perhaps good if you're using a phone on a commute. Or if you just want to scan a range of articles for something to read.
 
 ## About
 
