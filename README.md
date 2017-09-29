@@ -18,7 +18,8 @@ All content &copy; The Guardian.
 
 ## Moi
 
-- [https://www.leonpaternoster.com](Leon Paternoster)
-- [https://www.twitter.com/leonpaternoster](@leonpaternoster)
-
+<ul>
+  <li><a href="https://www.leonpaternoster.com">Leon Paternoster</a></li>
+  <li><a href="https://www.twitter.com/leonpaternoster">@leonpaternoster</a></li>
+</ul>
 
