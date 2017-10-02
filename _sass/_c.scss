@@ -71,13 +71,13 @@ td, th {
 .c-headers h1,
 .c-headers h3 {
     margin: 0;
-    padding: 0.5rem 0 0.25rem 0;
+    padding: 0.5rem 0;
     font-size: 1.25rem;
     line-height: 1.25;
     font-family: $sans-serif;
 }
 
-.c-headers h2 + p {
+.c-headers h2 + * {
     margin-top: 0;
 }
 
@@ -120,7 +120,7 @@ td, th {
       line-height: 1.5;
   }
   .c-lh-title {
-      line-height: 1.25;
+      line-height: 1.3;
   }
 }
 
