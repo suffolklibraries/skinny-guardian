@@ -30,6 +30,10 @@ td, th {
     padding: 0.25rem 0.5rem;
 }
 
+.c-measure {
+    max-width: 29em;
+}
+
 .c-lh-copy {
     line-height: 1.45;
 }
@@ -40,6 +44,12 @@ td, th {
 
 .c-sans-serif {
     font-family: $sans-serif;
+}
+
+.c-hyphens {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 
 .c-border-links a {
