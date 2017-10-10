@@ -2,17 +2,17 @@
 
     <article class="pv3 pt5-ns ph2 ph4-ns ph5-l">
 
-        <div class="measure center">
+        <div class="measure-wide">
 
-            <header>
+            <header class="mb4">
 
-                <h1 class="ma0 f3 c-lh-title">{{ page.webTitle }}</h1>
+                <p class="mid-gray ma0 mb1 f6">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}{% if page.fields.byline.size > 0 %}, {{ page.fields.byline }}{% endif %}. {{ page.fields.wordcount }} words.</p>
 
-                <p class="mid-gray">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}{% if page.fields.byline.size > 0 %}, {{ page.fields.byline }}{% endif %}. {{ page.fields.wordcount }} words.</p>
+                <h1 class="ma0 f2 c-lh-title measure">{{ page.webTitle }}</h1>
 
             </header>
 
-            <div class="c-headers c-links c-border-links pb3">
+            <div class="serif c-headers c-links c-border-links pb3">
 
                 {{ page.fields.body }}
 
