@@ -2,25 +2,21 @@
 
     <article class="pv3 pt5-ns ph2 ph4-ns ph5-l">
 
-        <div class="c-measure">
-
             <header class="mb4">
 
                 <p class="mid-gray ma0 mb1 f6">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}{% if page.fields.byline.size > 0 %}, {{ page.fields.byline }}{% endif %}. {{ page.fields.wordcount }} words.</p>
 
-                <h1 class="ma0 f3 f2-l c-lh-title measure">{{ page.webTitle }}</h1>
+                <h1 class="ma0 f3 f2-l c-lh-title measure-narrow">{{ page.webTitle }}</h1>
 
             </header>
 
-            <div class="serif c-headers c-links c-border-links pb3 c-hyphens">
+            <div class="serif c-headers c-links c-border-links pb3 c-hyphens c-measure">
 
                 {{ page.fields.body }}
 
             </div>
 
             <p class="f6 pt2 bt b--moon-gray">Permalink: <a class="b dark-blue no-underline hover-dark-pink" href="{{ page.webUrl }}">{{ page.fields.shortUrl }}</a></p>
-
-        </div>
 
     </article>
 
