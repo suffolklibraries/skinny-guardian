@@ -34,10 +34,20 @@
 
     </head>
 
-    <body class="ma0 pa0 bg-near-white dark-gray c-sans-serif c-lh-copy">
+    <body class="ma0 pa0 bg-washed-yellow dark-gray sans-serif lh-copy">
 
-        <div class="bg-white bb b--light-gray">
+        <div class="dt-l w-100-l">
 
-            <h1 class="f5 ma0"><a href="/" class="ph2 ph4-ns ph5-l pv2 pv3-ns db dark-blue no-underline hover-dark-pink">Skinny Guardian</a></h1>
+            <div class="pa2 pa5-l ph3-l dtc-l bg-dark-gray white w-30-l mb3 mb0-l">
 
-        </div>
+                <div class="measure center">
+
+                    <h1 class="ma0 f5"><a href="/" class="db pb1 pb3-l white no-underline hover-gold">{{ site.title }}</a></h1>
+
+                </div>
+
+            </div>
+
+            <div class="pa2 pa5-l pb2-l dtc-l w-70-l">
+
+                <main class="{% unless page.is_home %}measure {% endunless %}center">

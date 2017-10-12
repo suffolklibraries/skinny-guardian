@@ -6,7 +6,7 @@ html {
 
 figure {
     margin: 0;
-    padding-top: 0.5rem;
+    padding: 0;
 }
 
 figcaption,
@@ -123,11 +123,15 @@ td, th {
     font-weight: bold;
 }
 
+.element-pullquote {
+    display: none;
+}
+
 /* Media queries */
 
 @media (min-width: 40em) {
   html {
-    font-size: 125%;
+    font-size: 112.5%;
   }
   .c-lh-copy {
       line-height: 1.6;
@@ -139,7 +143,7 @@ td, th {
 
 @media (min-width: 60em) {
   html {
-    font-size: 168.75%;
+    font-size: 118.75%;
   }
 }
 

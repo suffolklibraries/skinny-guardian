@@ -1,22 +1,22 @@
 {% include header.html %}
 
-    <article class="pv3 pt5-ns ph2 ph4-ns ph5-l">
+    <article>
 
-            <header class="mb4">
+        <header class="mb3">
 
-                <p class="mid-gray ma0 mb1 f6">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}{% if page.fields.byline.size > 0 %}, {{ page.fields.byline }}{% endif %}. {{ page.fields.wordcount }} words.</p>
+            <p class="mid-gray mt0 mb1 lh-title f6">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}, {{ page.fields.wordcount }} words. {% if page.fields.byline.size > 0 %}{{ page.fields.byline }}.{% endif %}</p>
 
-                <h1 class="ma0 f3 f2-l c-lh-title measure-narrow">{{ page.webTitle }}</h1>
+            <h1 class="ma0 f3 lh-title">{{ page.webTitle }}</h1>
 
-            </header>
+        </header>
 
-            <div class="serif c-headers c-links c-border-links pb3 c-hyphens c-measure">
+        <div class="c-headers c-links c-border-links c-hyphens c-measure">
 
-                {{ page.fields.body }}
+            {{ page.fields.body }}
 
-            </div>
+        </div>
 
-            <p class="f6 pt2 bt b--moon-gray">Permalink: <a class="b dark-blue no-underline hover-dark-pink" href="{{ page.webUrl }}">{{ page.fields.shortUrl }}</a></p>
+        <p class="f6 ma0 mid-gray">Permalink: <a class="b dark-blue no-underline hover-dark-pink" href="{{ page.webUrl }}">{{ page.fields.shortUrl }}</a>.
 
     </article>
 
