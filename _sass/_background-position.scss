@@ -1,3 +1,10 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
 /*
 
     BACKGROUND POSITION
@@ -44,7 +51,7 @@
   background-position: center left;   
 }
 
-@media (--breakpoint-not-small) {
+@media #{$breakpoint-not-small} {
   .bg-center-ns { 
     background-repeat: no-repeat;
     background-position: center center; 
@@ -71,7 +78,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@media #{$breakpoint-medium} {
   .bg-center-m { 
     background-repeat: no-repeat;
     background-position: center center; 
@@ -98,7 +105,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@media #{$breakpoint-large} {
   .bg-center-l { 
     background-repeat: no-repeat;
     background-position: center center; 

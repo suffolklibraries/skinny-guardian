@@ -4,9 +4,39 @@ sitemap: false
 
 @charset "utf-8";
 
-$sans-serif: -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+$c-sans-serif: -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
 
 @import
-    "tachyons-4.8.1",
+    "normalize",
+    "media-queries",
+    "colors",
+    "border-colors",
+    "border-style",
+    "border-widths",
+    "borders",
+    "box-sizing",
+    "code",
+    "display",
+    "font-style",
+    "font-weight",
+    "hovers",
+    "images",
+    "line-height",
+    "links",
+    "lists",
+    "max-widths",
+    "nested",
+    "skins-pseudo",
+    "skins",
+    "spacing",
+    "styles",
+    "text-align",
+    "text-decoration",
+    "type-scale",
+    "typography",
+    "utilities",
+    "visibility",
+    "white-space",
+    "widths",
     "c"
 ;

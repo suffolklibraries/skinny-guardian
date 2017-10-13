@@ -1,3 +1,10 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
 /*
 
    ASPECT RATIOS
@@ -50,7 +57,7 @@
     z-index: 100;
 }
 
-@media (--breakpoint-not-small){
+@media #{$breakpoint-not-small}{
     .aspect-ratio-ns {
       height: 0;
       position: relative;
@@ -78,7 +85,7 @@
     }
 }
 
-@media (--breakpoint-medium){
+@media #{$breakpoint-medium}{
     .aspect-ratio-m {
       height: 0;
       position: relative;
@@ -106,7 +113,7 @@
     }
 }
 
-@media (--breakpoint-large){
+@media #{$breakpoint-large}{
     .aspect-ratio-l {
       height: 0;
       position: relative;

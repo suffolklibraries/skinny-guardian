@@ -1,3 +1,10 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
 /*
 
    UTILITIES
@@ -22,7 +29,7 @@
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left:  auto; }
 
-@media (--breakpoint-not-small){
+@media #{$breakpoint-not-small}{
   .center-ns {
     margin-right: auto;
     margin-left: auto;
@@ -31,7 +38,7 @@
   .ml-auto-ns { margin-left:  auto; }
 }
 
-@media (--breakpoint-medium){
+@media #{$breakpoint-medium}{
   .center-m {
     margin-right: auto;
     margin-left: auto;
@@ -40,7 +47,7 @@
   .ml-auto-m { margin-left:  auto; }
 }
 
-@media (--breakpoint-large){
+@media #{$breakpoint-large}{
   .center-l {
     margin-right: auto;
     margin-left: auto;
