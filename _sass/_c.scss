@@ -65,28 +65,15 @@ td, th {
     color: #357EDD;
 }
 
-.c-links a:hover,
-.c-links a:active,
-.c-links a:focus {
-    color: #D5008F;
-}
-
-.c-old-guardian-serif {
-    font-family: garamond, baskerville, 'liberation serif', serif;
-}
-
-.c-old-guardian-helv {
-    font-family: 'helvetica neue', helvetica, arial;
-}
-
-.c-headers h2,
 .c-headers h1,
+.c-headers h2,
 .c-headers h3 {
     margin: 0;
     padding: 0.5rem 0;
     font-size: 1.25rem;
     line-height: 1.25;
     font-family: $c-sans-serif;
+    font-weight: 500;
 }
 
 .c-headers h2 + * {

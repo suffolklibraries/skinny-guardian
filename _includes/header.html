@@ -30,7 +30,12 @@
 
         {% endif %}
 
-        <link rel="stylesheet" href="/css/style.css">
+        <style>
+            {% capture inline-styles %}
+            {% include style.scss %}
+            {% endcapture %}
+            {{ inline-styles | scssify }}
+        </style>
 
     </head>
 
