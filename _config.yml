@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Skinny Guardian
 email: leon.paternoster@zoho.com
-description: The last 30 Guardian articles, fast and in a simple, easy to read format.
+description: The last 50 Guardian articles, fast and in a simple, easy to read format.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: leonpaternoster
@@ -27,7 +27,7 @@ markdown: kramdown
 # Jekyll get
 jekyll_get:
   data: articles
-  json: 'http://content.guardianapis.com/search?show-fields=body,byline,shortUrl,wordcount&page-size=30&production-office=UK&type=article&api-key=gwrrwxhh797jwfnbfsw7wkf5'
+  json: 'http://content.guardianapis.com/search?show-fields=body,byline,shortUrl,wordcount&page-size=50&production-office=UK&type=article&api-key=gwrrwxhh797jwfnbfsw7wkf5'
 
 # Data page generator
 page_gen:
