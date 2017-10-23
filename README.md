@@ -1,6 +1,6 @@
 # Skinny Guardian
 
-[Skinny Guardian](https://www.skinnyguardian.xyz) displays a simple list of the 30 most recently published Guardian articles. Article layouts are very simple for easy reading across screen widths. No javascript, static HTML, minimal CSS and no database = ⚡️ fast.
+[Skinny Guardian](https://www.skinnyguardian.xyz) displays a simple list of the 50 most recently published/updated Guardian articles. Article layouts are very simple for easy reading across screen widths. No javascript, static HTML, minimal CSS and no database = ⚡️ fast.
 
 ## Why?
 
@@ -10,7 +10,9 @@ A simple list of links is easy to scan. The Guardian has a great website, but Sk
 
 Built on static site generator [Jekyll](https://jekyllrb.com), Skinny Guardian serves static HTML. There's no database.
 
-Uses [Tachyons CSS](http://tachyons.io), a lightweight, functional CSS 'framework' that weighs in at 14k gzipped. There's no javascript at all.
+Uses a few [Tachyons CSS](http://tachyons.io) modules, a lightweight, functional CSS 'framework' that weighs in at 14k gzipped. There's no javascript at all.
+
+Styles served in the document head = 1 less call.
 
 Hosted on Netlify for free CDN and SSL. Netlify works with Zapier to automatically build the site once an hour (that's how you get around having no database).
 
