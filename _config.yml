@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Skinny Guardian
 email: leon.paternoster@zoho.com
-description: The last 50 Guardian articles, fast and in a simple, easy to read format.
+description: The last 50 Guardian articles. Fast and in a simple, easy to read format.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: leonpaternoster
@@ -23,6 +23,9 @@ github_username:  leonp
 
 # Build settings
 markdown: kramdown
+
+# Set a timezone for the server
+timezone: "Europe/London"
 
 # Jekyll get
 jekyll_get:
