@@ -31,7 +31,7 @@ td, th {
 }
 
 .c-measure {
-    max-width: 29em;
+    max-width: 36em;
 }
 
 .c-lh-copy {
@@ -52,17 +52,12 @@ td, th {
     hyphens: auto;
 }
 
-.c-border-links a {
-    text-decoration: none;
-    border-bottom: 1px solid;
-}
-
 .c-links a:link {
-    color: #00449E;
+    color: #FFF;
 }
 
 .c-links a:visited {
-    color: #357EDD;
+    color: #999;
 }
 
 .c-headers h1,
@@ -111,7 +106,9 @@ td, th {
 }
 
 .element-pullquote,
-.element-atom {
+.element-atom,
+.element-rich-link,
+.element-embed {
     display: none;
 }
 
