@@ -53,18 +53,17 @@ td, th {
 }
 
 .c-links a:link {
-    color: #FFF;
+    color: #00449E;
 }
 
 .c-links a:visited {
-    color: #999;
+    color: #777;
 }
 
 .c-headers h1,
 .c-headers h2,
 .c-headers h3 {
-    margin: 0;
-    padding: 0.5rem 0;
+    margin-top: 1.5rem;
     font-size: 1.25rem;
     line-height: 1.25;
     font-family: $c-sans-serif;

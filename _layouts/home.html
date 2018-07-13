@@ -8,21 +8,21 @@ layout: compress
 
         <header class="mb3 ph2 ph4-m ph5-l">
 
-            <p class="ma0 mb1 f6">Updated {{ "now" | date: "%-d %B %Y, %H:%M (%Z)" }}</p>
+            <p class="gray ma0 mb1 f6">Updated {{ "now" | date: "%-d %B %Y, %H:%M (%Z)" }}</p>
 
             <div class="measure">
 
-                <h1 class="white ma0 f3 f2-ns lh-title fw5">Latest Guardian headlines</h1>
+                <h1 class="ma0 f3 f2-ns lh-title fw5">Latest Guardian headlines</h1>
 
             </div>
 
         </header>
 
-        <ul class="list ma0 pa0 bb b--light-gray">
+        <ul class="list ma0 pa0">
 
         {% for article in site.data.articles.response.results %}
 
-          <li class="bt b--dark-gray"><a class="f4-l db ph2 ph4-m ph5-l pv2 pv3-ns light-silver no-underline hover-white" href="/articles/{{ article.id | downcase | replace: '/', '' }}.html">{{ article.webTitle}}</a></li>
+          <li class="bt b--light-gray"><a class="f4-l db ph2 ph4-m ph5-l pv2 pv3-ns dark-blue no-underline" href="/articles/{{ article.id | downcase | replace: '/', '' }}.html">{{ article.webTitle}}</a></li>
 
         {% endfor %}
 
