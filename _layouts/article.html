@@ -4,17 +4,13 @@ layout: compress
 
 {% include header.html %}
 
-    <article class="pb3">
+    <article class="pb3 c-measure center">
 
         <header class="mb3 ph2 ph4-m ph5-l">
 
             <p class="mt0 mb1 f6 gray">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}, {{ page.fields.wordcount }} words. {% if page.fields.byline.size > 0 %}{{ page.fields.byline }}.{% endif %}</p>
 
-            <div class="measure">
-
-                <h1 class="ma0 f3 f2-ns lh-title">{{ page.webTitle }}</h1>
-
-            </div>
+            <h1 class="ma0 f3 f2-ns lh-title">{{ page.webTitle }}</h1>
 
         </header>
 
