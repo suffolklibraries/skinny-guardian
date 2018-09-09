@@ -4,17 +4,17 @@ layout: compress
 
 {% include header.html %}
 
-    <article class="pb3 c-measure center">
+    <article class="pb3 ph2 ph4-m ph5-l">
 
-        <header class="mb3 ph2 ph4-m ph5-l">
+        <div class="c-measure center">
 
-            <p class="mt0 mb2 f6 gray">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}, {{ page.fields.wordcount }} words. {% if page.fields.byline.size > 0 %}{{ page.fields.byline }}.{% endif %}</p>
+            <header class="mb3">
 
-            <h1 class="ma0 f3 f2-ns lh-title">{{ page.webTitle }}</h1>
+                <p class="mt0 mb2 f6 gray">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}, {{ page.fields.wordcount }} words. {% if page.fields.byline.size > 0 %}{{ page.fields.byline }}.{% endif %}</p>
 
-        </header>
+                <h1 class="ma0 f3 f2-ns lh-title">{{ page.webTitle }}</h1>
 
-        <div class="ph2 ph4-m ph5-l">
+            </header>
 
             <div class="c-headers c-links c-border-links c-hyphens c-measure">
 
