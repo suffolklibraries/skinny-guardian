@@ -4,16 +4,15 @@ sitemap: false
 
 @charset "utf-8";
 
-$c-sans-serif: -apple-system, BlinkMacSystemFont, 'segoe ui', 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
-
 @import
     "normalize",
     "media-queries",
     "colors",
+    "variables",
+    "borders",
     "border-colors",
     "border-style",
     "border-widths",
-    "borders",
     "box-sizing",
     "code",
     "display",
