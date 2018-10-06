@@ -4,7 +4,7 @@ html {
 
 body {
     padding: 1rem;
-    line-height: 1.5;
+    line-height: 1.375;
     max-width: 38em;
     margin: 0 auto;
     font-family: -apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,"Inter UI","IBM Plex Sans",ubuntu,roboto,noto,sans-serif;
@@ -34,7 +34,7 @@ h4,
 h5,
 h6,
 dt {
-    line-height: 1.2;
+    line-height: 1.15;
     padding-top: 1rem;
 }
 
@@ -64,6 +64,12 @@ footer p {
 article header h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+}
+
+li a,
+header a,
+footer a {
+    text-decoration: none;
 }
 
 .gu-image {
@@ -101,5 +107,17 @@ article header h1 {
 @media (min-width: 740px) {
     html {
         font-size: 118.5%;
+    }
+    body {
+        line-height: 1.45;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    dt {
+        line-height: 1.2;
     }
 }
