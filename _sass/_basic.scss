@@ -21,6 +21,10 @@ img {
     height: auto !important;
 }
 
+*:focus {
+    outline: 3px solid #FFB700;
+}
+
 header p,
 footer p,
 figcaption {
