@@ -6,23 +6,19 @@ layout: compress
 
     <article>
 
-        <header class="mb3 ph2 ph4-m ph5-l">
+        <header>
 
-            <div class="c-measure center">
+            <h1>Latest Guardian headlines</h1>
 
-                <p class="gray ma0 mb2 f6">Updated {{ "now" | date: "%-d %B %Y, %H:%M (%Z)" }}</p>
-
-                <h2 class="ma0 f3 f2-ns lh-title">Latest Guardian headlines</h2>
-
-            </div>
+            <p>Updated {{ "now" | date: "%-d %B %Y, %H:%M (%Z)" }}</p>
 
         </header>
 
-        <ul class="list ma0 pa0">
+        <ul>
 
         {% for article in site.data.articles.response.results %}
 
-          <li class="bt b--light-gray ph2 ph4-m ph5-l"><a class="c-measure center db pv2 pv3-ns dark-blue no-underline" href="/articles/{{ article.id | downcase | replace: '/', '' }}.html">{{ article.webTitle}}</a></li>
+          <li><a href="/articles/{{ article.id | downcase | replace: '/', '' }}.html">{{ article.webTitle}}</a></li>
 
         {% endfor %}
 

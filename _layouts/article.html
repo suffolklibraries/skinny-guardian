@@ -4,25 +4,29 @@ layout: compress
 
 {% include header.html %}
 
-    <article class="pb3 ph2 ph4-m ph5-l">
+    <article>
 
-        <div class="c-measure center">
+        <div>
 
-            <header class="mb3">
+            <header>
 
-                <p class="mt0 mb2 f6 gray">{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}, {{ page.fields.wordcount }} words. {% if page.fields.byline.size > 0 %}{{ page.fields.byline }}.{% endif %}</p>
+                <h1>{{ page.webTitle }}</h1>
 
-                <h1 class="ma0 f3 f2-ns lh-title">{{ page.webTitle }}</h1>
+                <p>{{ page.webPublicationDate  | date: "%-d %B %Y, %R (%Z)" }}, {{ page.fields.wordcount }} words. {% if page.fields.byline.size > 0 %}{{ page.fields.byline }}.{% endif %}</p>
 
             </header>
 
-            <div class="c-headers c-links c-border-links c-hyphens c-measure">
+            <div>
 
                 {{ page.fields.body }}
 
             </div>
 
-            <p class="f6 gray">Permalink: <a class="b dark-blue no-underline" href="{{ page.webUrl }}">{{ page.fields.shortUrl }}</a>.</p>
+            <footer>
+
+                <p>Permalink: <a href="{{ page.webUrl }}">{{ page.fields.shortUrl }}</a>.</p>
+
+            </footer>
 
         </div>
 
