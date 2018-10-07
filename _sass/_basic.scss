@@ -3,16 +3,22 @@ html {
 }
 
 body {
-    padding: 1rem;
+    background-color: #F8F8F1;
+    color: #333;
+    padding: 0 1rem 1rem 1rem;
     line-height: 1.375;
     max-width: 38em;
     margin: 0 auto;
-    font-family: "Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
+    font-family: "IBM Plex Serif","Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
 }
 
 figure {
     margin: 0;
     padding: 0;
+}
+
+figcaption {
+    font-family: "Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
 }
 
 img {
@@ -40,10 +46,11 @@ h6,
 dt {
     line-height: 1.15;
     padding-top: 1rem;
+    font-family: "Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 h2 {
@@ -59,6 +66,30 @@ li {
     margin-bottom: 0.5rem;
 }
 
+li a {
+    text-decoration: none;
+}
+
+header {
+    font-family: "Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
+}
+
+article {
+    hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+article header {
+    hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+}
+
+article header h1 {
+    font-size: 2rem;
+}
+
 article header p,
 footer p {
     margin-top: 0;
@@ -68,10 +99,6 @@ footer p {
 article header h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-}
-
-li a {
-    text-decoration: none;
 }
 
 .gu-image {
@@ -111,7 +138,7 @@ li a {
         font-size: 118.5%;
     }
     body {
-        line-height: 1.45;
+        line-height: 1.5;
     }
     h1,
     h2,
