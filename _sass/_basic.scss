@@ -3,13 +3,18 @@ html {
 }
 
 body {
-    background-color: #F8F8F1;
+    background-color: #FFF;
     color: #333;
+    margin: 0;
     padding: 0 1rem 1rem 1rem;
     line-height: 1.375;
     max-width: 38em;
-    margin: 0 auto;
-    font-family: "IBM Plex Serif","Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
+}
+
+a {
+  color: #00449E;
+  text-decoration: none;
 }
 
 figure {
@@ -18,7 +23,7 @@ figure {
 }
 
 figcaption {
-    font-family: "Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
 }
 
 img {
@@ -46,7 +51,6 @@ h6,
 dt {
     line-height: 1.15;
     padding-top: 1rem;
-    font-family: "Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
 }
 
 h1 {
@@ -71,7 +75,7 @@ li a {
 }
 
 header {
-    font-family: "Inter UI","IBM Plex Sans",-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
+  border-bottom: 1px solid #DDD;
 }
 
 article {
@@ -80,14 +84,31 @@ article {
     -webkit-hyphens: auto;
 }
 
+article a {
+  text-decoration: underline;
+}
+
+article a:visited {
+  color: #357EDD;
+}
+
+article a:hover,
+article a:active,
+article a:focus {
+  color: #00449E;
+}
+
 article header {
     hyphens: none;
     -moz-hyphens: none;
     -webkit-hyphens: none;
+    padding: 0;
+    border-bottom: 0;
 }
 
 article header h1 {
     font-size: 2rem;
+    border-bottom: none;
 }
 
 article header p,
@@ -99,6 +120,17 @@ footer p {
 article header h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+}
+
+article footer {
+  border-top: 0;
+  padding: 0;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #DDD;
 }
 
 .gu-image {
@@ -133,12 +165,25 @@ article header h1 {
     display: none;
 }
 
+.c-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.c-list a {
+  display: block;
+  padding: 0.25rem 0;
+  text-decoration: none;
+}
+
 @media (min-width: 740px) {
     html {
         font-size: 118.5%;
     }
     body {
         line-height: 1.5;
+        padding: 2rem 3rem;
     }
     h1,
     h2,
