@@ -30,6 +30,10 @@ td, th {
     padding: 0.25rem 0.5rem;
 }
 
+*:focus {
+    outline: 3px solid #FFB700;
+}
+
 .c-measure {
     max-width: 40em;
 }
