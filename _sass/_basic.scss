@@ -9,12 +9,18 @@ body {
     padding: 0 1rem 1rem 1rem;
     line-height: 1.375;
     max-width: 32em;
-    font-family: -apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
+    font-family: 'Fira Sans',-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
 }
 
 a {
   color: #00449E;
   text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: underline;
 }
 
 figure {
