@@ -1,11 +1,12 @@
 html {
     font-size: 100%;
+    background-color: #DDD;
 }
 
 body {
     background-color: #FFF;
     color: #333;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 1rem 1rem 1rem;
     line-height: 1.375;
     max-width: 32em;
@@ -15,12 +16,6 @@ body {
 a {
   color: #00449E;
   text-decoration: none;
-}
-
-a:hover,
-a:active,
-a:focus {
-    text-decoration: underline;
 }
 
 figure {
@@ -189,6 +184,9 @@ footer {
     body {
         line-height: 1.5;
         padding: 2rem 3rem;
+        margin: 1.5rem auto;
+        border: 1px solid #CCC;
+        border-radius: 3px;
     }
     h1,
     h2,
