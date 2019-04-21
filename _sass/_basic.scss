@@ -1,6 +1,6 @@
 html {
-    font-size: 100%;
-    background-color: #DDD;
+    font-size: 112.5%;
+    background-color: #FFF;
 }
 
 body {
@@ -9,8 +9,8 @@ body {
     margin: 0 auto;
     padding: 0 1rem 1rem 1rem;
     line-height: 1.375;
-    max-width: 30em;
-    font-family: -apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
+    max-width: 34em;
+    font-family: 'Public Sans','Fira Sans',-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
 }
 
 a {
@@ -76,7 +76,7 @@ li a {
 }
 
 header {
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px dotted #DDD;
 }
 
 article {
@@ -129,8 +129,8 @@ article footer {
 
 footer {
   margin-top: 2rem;
-  padding: 1rem 0;
-  border-top: 1px solid #DDD;
+  padding: 0.5rem 0;
+  border-top: 1px dotted #DDD;
 }
 
 .gu-image {
@@ -179,14 +179,10 @@ footer {
 
 @media (min-width: 740px) {
     html {
-        font-size: 118.5%;
+        font-size: 118.75%;
     }
     body {
-        line-height: 1.5;
-        padding: 2rem 3rem;
-        margin: 1.5rem auto;
-        border: 1px solid #CCC;
-        border-radius: 3px;
+        line-height: 1.6;
     }
     h1,
     h2,
@@ -196,5 +192,9 @@ footer {
     h6,
     dt {
         line-height: 1.2;
+    }
+
+    article header {
+        padding-top: 4rem;
     }
 }
