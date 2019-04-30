@@ -1,15 +1,15 @@
 html {
     font-size: 112.5%;
-    background-color: #FFF;
+    background-color: #E8DCCA;
 }
 
 body {
-    background-color: #FFF;
+    background-color: #E8DCCA;
     color: #333;
     margin: 0 auto;
     padding: 0 1rem 1rem 1rem;
     line-height: 1.375;
-    max-width: 36em;
+    max-width: 32em;
     font-family: 'Public Sans',-apple-system,BlinkMacSystemFont,"segoe ui","helvetica neue",helvetica,ubuntu,roboto,noto,sans-serif;
 }
 
@@ -21,6 +21,16 @@ a {
 figure {
     margin: 0 0 1rem 0;
     padding: 0;
+}
+
+header {
+    margin-top: 1rem;
+}
+
+header a {
+    border-bottom: 0.25rem solid;
+    font-weight: bold;
+    font-size: 0.875rem;
 }
 
 figcaption {
@@ -37,7 +47,7 @@ img {
     outline: 3px solid #FFB700;
 }
 
-header p,
+article header p,
 footer p,
 figcaption {
     font-size: 0.875rem;
@@ -55,20 +65,16 @@ dt {
 }
 
 h1 {
-    font-size: 1rem;
-}
-
-h1 a {
-    border-bottom: 0.25rem solid;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 h3,
 dt {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 li {
@@ -170,10 +176,15 @@ footer {
   list-style-type: none;
 }
 
+.c-list li {
+    margin: 0;
+}
+
 .c-list a {
   display: block;
-  padding: 0.25rem 0;
+  padding: 0.25rem 0 0.5rem 0;
   text-decoration: none;
+  border-top: 1px dotted #CFCFCF;
 }
 
 @media (min-width: 740px) {
