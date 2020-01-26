@@ -37,16 +37,6 @@
             {{ inline-styles | scssify }}
         </style>
 
-        {% if page.is_home %}
-
-        {% for article in site.data.articles.response.results %}
-
-        <link rel="prefetch" href="/articles/{{ article.id | downcase | replace: '/', '' }}.html" as="document">
-
-        {% endfor %}
-
-        {% endif %}
-
     </head>
 
     <body>
